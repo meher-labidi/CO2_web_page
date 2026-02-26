@@ -1,0 +1,1623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CO₂ & R290 Refrigeration Systems | Natural Refrigerants | Tabreed</title>
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="Tabreed specializes in CO₂ (R744) and R290 (Propane) natural refrigerant systems. Professional installation, maintenance, and retrofit solutions for commercial refrigeration across UAE.">
+    <meta name="keywords" content="CO2 refrigeration, R744 systems, R290 refrigerant, propane refrigeration, natural refrigerant, commercial refrigeration, sustainable cooling, UAE refrigeration">
+    <meta name="author" content="Tabreed">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header - Same as BMS page */
+        .header {
+            background: white;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: #0056b3;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+
+        .logo-text {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #0056b3;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-menu a:hover,
+        .nav-menu a.active {
+            color: #0056b3;
+        }
+
+        .header-cta {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 1.8rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background: #0056b3;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #003d7a;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,86,179,0.3);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: #0056b3;
+            border: 2px solid #0056b3;
+        }
+
+        .btn-outline:hover {
+            background: #0056b3;
+            color: white;
+        }
+
+        .btn-light {
+            background: white;
+            color: #0056b3;
+        }
+
+        .btn-light:hover {
+            background: #f0f7ff;
+        }
+
+        .btn-lg {
+            padding: 1rem 2.5rem;
+            font-size: 1.1rem;
+        }
+
+        .mobile-menu {
+            display: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* Hero Section - CO2 Theme */
+        .hero {
+            background: linear-gradient(135deg, #0a2a42 0%, #1c5d8f 100%);
+            color: white;
+            padding: 160px 0 100px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" opacity="0.1"><circle cx="50" cy="50" r="40" stroke="white" stroke-width="1" fill="none"/><circle cx="50" cy="50" r="30" stroke="white" stroke-width="1" fill="none"/><circle cx="50" cy="50" r="20" stroke="white" stroke-width="1" fill="none"/></svg>');
+            background-size: 100px 100px;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero .lead {
+            font-size: 1.3rem;
+            opacity: 0.95;
+            margin-bottom: 2rem;
+            max-width: 600px;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: rgba(46, 169, 164, 0.2);
+            backdrop-filter: blur(5px);
+            padding: 0.5rem 1.5rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+            border: 1px solid rgba(46, 169, 164, 0.5);
+        }
+
+        .hero-stats {
+            display: flex;
+            gap: 3rem;
+            margin-top: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .stat-number {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #2ea9a4;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        /* Trust Bar */
+        .trust-bar {
+            background: #0a2a42;
+            color: white;
+            padding: 1rem 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .trust-items {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+
+        .trust-item i {
+            color: #2ea9a4;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 1rem;
+            position: relative;
+            padding-bottom: 1rem;
+        }
+
+        .section-title:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 80px;
+            height: 4px;
+            background: #2ea9a4;
+            border-radius: 2px;
+        }
+
+        .section-title.text-center:after {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .section-subtitle {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 3rem;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        /* Grid System */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -15px;
+        }
+
+        .col {
+            flex: 1;
+            padding: 0 15px;
+        }
+
+        .col-2 {
+            flex: 0 0 16.666%;
+            padding: 0 15px;
+        }
+
+        .col-3 {
+            flex: 0 0 25%;
+            padding: 0 15px;
+        }
+
+        .col-4 {
+            flex: 0 0 33.333%;
+            padding: 0 15px;
+        }
+
+        .col-6 {
+            flex: 0 0 50%;
+            padding: 0 15px;
+        }
+
+        .col-8 {
+            flex: 0 0 66.666%;
+            padding: 0 15px;
+        }
+
+        .col-12 {
+            flex: 0 0 100%;
+            padding: 0 15px;
+        }
+
+        /* Backgrounds */
+        .bg-light {
+            background: #f8f9fa;
+        }
+
+        .bg-primary {
+            background: #0a2a42;
+            color: white;
+        }
+
+        .bg-teal {
+            background: #2ea9a4;
+            color: white;
+        }
+
+        .text-white {
+            color: white;
+        }
+
+        /* Cards */
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            height: 100%;
+            transition: all 0.3s;
+            border: 1px solid #eee;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            border-color: #2ea9a4;
+        }
+
+        .card-primary {
+            background: linear-gradient(135deg, #0a2a42, #1c5d8f);
+            color: white;
+        }
+
+        .card-primary h3, .card-primary h4 {
+            color: white;
+        }
+
+        /* Feature Card */
+        .feature-card {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .feature-icon {
+            width: 80px;
+            height: 80px;
+            background: rgba(46, 169, 164, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            color: #2ea9a4;
+            font-size: 2rem;
+            transition: all 0.3s;
+        }
+
+        .card:hover .feature-icon {
+            background: #2ea9a4;
+            color: white;
+        }
+
+        /* System Cards */
+        .system-card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            height: 100%;
+            transition: all 0.3s;
+            border: 1px solid #eee;
+        }
+
+        .system-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+            border-color: #2ea9a4;
+        }
+
+        .system-header {
+            background: linear-gradient(135deg, #0a2a42, #1c5d8f);
+            color: white;
+            padding: 2rem 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .system-header i {
+            font-size: 2rem;
+            color: #2ea9a4;
+        }
+
+        .system-header h3 {
+            color: white;
+            margin-bottom: 0.25rem;
+        }
+
+        .system-header p {
+            color: rgba(255,255,255,0.8);
+            font-size: 0.9rem;
+        }
+
+        .system-content {
+            padding: 2rem;
+        }
+
+        .system-features {
+            list-style: none;
+            margin: 1.5rem 0;
+        }
+
+        .system-features li {
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.8rem;
+        }
+
+        .system-features i {
+            color: #2ea9a4;
+            margin-top: 0.2rem;
+        }
+
+        .system-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .system-tag {
+            background: #f0f7ff;
+            padding: 0.3rem 1rem;
+            border-radius: 30px;
+            font-size: 0.8rem;
+            color: #0056b3;
+            font-weight: 500;
+        }
+
+        .application-badge {
+            background: rgba(46, 169, 164, 0.1);
+            padding: 1rem;
+            border-radius: 8px;
+            border-left: 4px solid #2ea9a4;
+            margin-top: 1rem;
+        }
+
+        /* R290 Cards */
+        .r290-card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            height: 100%;
+            border: 1px solid #eee;
+            transition: all 0.3s;
+        }
+
+        .r290-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+
+        .r290-header {
+            background: #2ea9a4;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .r290-header i {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .r290-header h3 {
+            color: white;
+            margin-bottom: 0.25rem;
+        }
+
+        .r290-content {
+            padding: 2rem;
+        }
+
+        /* Stat Boxes */
+        .stat-box {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            height: 100%;
+        }
+
+        .stat-box .number {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #2ea9a4;
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-box .label {
+            font-size: 1rem;
+            color: #666;
+            font-weight: 500;
+        }
+
+        /* Technology Section */
+        .tech-feature {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .tech-icon {
+            width: 60px;
+            height: 60px;
+            background: rgba(46, 169, 164, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #2ea9a4;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        /* Partner Section */
+        .partner-card {
+            background: white;
+            border-radius: 12px;
+            padding: 2.5rem;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+        }
+
+        .partner-logo-placeholder {
+            width: 150px;
+            height: 70px;
+            background: #f5f5f5;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            font-weight: 600;
+            color: #999;
+        }
+
+        /* FAQ Section */
+        .faq-item {
+            background: white;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .faq-question {
+            padding: 1.2rem 1.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            color: #333;
+            background: white;
+        }
+
+        .faq-question i {
+            transition: transform 0.3s;
+        }
+
+        .faq-question.active i {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            padding: 0 1.5rem;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            background: #f8f9fa;
+        }
+
+        .faq-answer.active {
+            padding: 0 1.5rem 1.5rem;
+            max-height: 500px;
+        }
+
+        /* Contact Form */
+        .contact-form {
+            background: white;
+            border-radius: 12px;
+            padding: 3rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: #333;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+            transition: all 0.3s;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: #2ea9a4;
+            box-shadow: 0 0 0 3px rgba(46, 169, 164, 0.1);
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        /* Footer - Same as BMS page */
+        .footer {
+            background: #1a1a1a;
+            color: #999;
+            padding: 60px 0 30px;
+        }
+
+        .footer h4 {
+            color: white;
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.8rem;
+        }
+
+        .footer-links a {
+            color: #999;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: #2ea9a4;
+        }
+
+        .contact-info {
+            list-style: none;
+        }
+
+        .contact-info li {
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .contact-info i {
+            color: #2ea9a4;
+            width: 20px;
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 2rem;
+            margin-top: 2rem;
+            border-top: 1px solid #333;
+            color: #777;
+        }
+
+        /* Spacing Utilities */
+        .mt-3 { margin-top: 1rem; }
+        .mt-4 { margin-top: 1.5rem; }
+        .mt-5 { margin-top: 2rem; }
+        .mb-3 { margin-bottom: 1rem; }
+        .mb-4 { margin-bottom: 1.5rem; }
+        .mb-5 { margin-bottom: 2rem; }
+        .py-5 { padding: 3rem 0; }
+
+        /* Responsive */
+        @media (max-width: 992px) {
+            .col-3, .col-4, .col-6 {
+                flex: 0 0 50%;
+                margin-bottom: 30px;
+            }
+            
+            .hero h1 {
+                font-size: 2.8rem;
+            }
+            
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .mobile-menu {
+                display: block;
+            }
+            
+            .nav-menu {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: white;
+                flex-direction: column;
+                padding: 2rem;
+                box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            }
+            
+            .nav-menu.active {
+                display: flex;
+            }
+            
+            .header-cta {
+                display: none;
+            }
+            
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            
+            .col-3, .col-4, .col-6 {
+                flex: 0 0 100%;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            .trust-items {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .contact-form {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Trust Bar -->
+    <div class="trust-bar">
+        <div class="container">
+            <div class="trust-items">
+                <div class="trust-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Fully Licensed & Insured</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-leaf"></i>
+                    <span>Natural Refrigerant Specialists</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-clock"></i>
+                    <span>24/7 Emergency Service</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-handshake"></i>
+                    <span>Danfoss Technology Partner</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <div class="logo-icon">T</div>
+                <span class="logo-text">Tabreed</span>
+            </div>
+            
+            <div class="mobile-menu" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <nav>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#co2-systems">CO₂ Systems</a></li>
+                    <li><a href="#r290-systems">R290 Systems</a></li>
+                    <li><a href="#technology">Technology</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-cta">
+                <a href="tel:+97112345678" class="btn btn-outline">
+                    <i class="fas fa-phone"></i> +971 12 345 678
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge">
+                    <i class="fas fa-leaf"></i> Natural Refrigerants
+                </span>
+                <h1>CO₂ (R744) & R290 Refrigeration Systems for Sustainable Cooling</h1>
+                <p class="lead">Professional installation, commissioning, and maintenance of eco-friendly CO₂ and R290 natural refrigerant systems for commercial and industrial applications across UAE.</p>
+                
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <a href="#contact" class="btn btn-light btn-lg">
+                        <i class="fas fa-comments"></i> Talk to Our Experts
+                    </a>
+                    <a href="#co2-systems" class="btn btn-outline" style="background: transparent; color: white; border-color: white;">
+                        <i class="fas fa-play"></i> Explore Systems
+                    </a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">GWP=1</span>
+                        <span class="stat-label">CO₂ (R744)</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">GWP=3</span>
+                        <span class="stat-label">R290 (Propane)</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">28%</span>
+                        <span class="stat-label">Energy Savings</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="section-title">Natural Refrigeration Specialists</h2>
+                    <p class="lead" style="color: #2ea9a4; font-weight: 600;">Leading the transition to sustainable refrigeration since 2005</p>
+                    <p>Tabreed is a leader in sustainable refrigeration technology, specializing in CO₂ (R744) and R290 (Propane) systems for commercial and industrial applications across UAE. We've been at the forefront of the natural refrigerant revolution.</p>
+                    <p>What sets us apart is our deep expertise in both transcritical CO₂ systems and R290 self-contained refrigeration, along with our partnership with Danfoss, the global leader in refrigeration technology.</p>
+                    
+                    <div style="margin-top: 2rem;">
+                        <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
+                            <div>
+                                <h3 style="color: #2ea9a4; font-size: 2rem; margin-bottom: 0;">20+</h3>
+                                <p>Years Experience</p>
+                            </div>
+                            <div>
+                                <h3 style="color: #2ea9a4; font-size: 2rem; margin-bottom: 0;">1000+</h3>
+                                <p>Systems Installed</p>
+                            </div>
+                            <div>
+                                <h3 style="color: #2ea9a4; font-size: 2rem; margin-bottom: 0;">24/7</h3>
+                                <p>Emergency Support</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6">
+                    <div style="background: linear-gradient(135deg, #0a2a42, #1c5d8f); border-radius: 20px; padding: 2.5rem; color: white; height: 100%;">
+                        <i class="fas fa-certificate" style="font-size: 3rem; color: #2ea9a4; margin-bottom: 1.5rem;"></i>
+                        <h3 style="color: white;">Why Natural Refrigerants?</h3>
+                        <ul style="list-style: none; margin-top: 1.5rem;">
+                            <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem;">
+                                <i class="fas fa-check-circle" style="color: #2ea9a4;"></i>
+                                <span>Zero Ozone Depletion Potential (ODP)</span>
+                            </li>
+                            <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem;">
+                                <i class="fas fa-check-circle" style="color: #2ea9a4;"></i>
+                                <span>Ultra-low Global Warming Potential (GWP)</span>
+                            </li>
+                            <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem;">
+                                <i class="fas fa-check-circle" style="color: #2ea9a4;"></i>
+                                <span>20-30% Energy Savings vs Traditional HFCs</span>
+                            </li>
+                            <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem;">
+                                <i class="fas fa-check-circle" style="color: #2ea9a4;"></i>
+                                <span>Future-proof - Compliant with all regulations</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CO₂ System Types Section -->
+    <section class="bg-light" id="co2-systems">
+        <div class="container">
+            <h2 class="section-title text-center">CO₂ (R744) Refrigeration Systems</h2>
+            <p class="section-subtitle text-center">Different CO₂ system configurations for different commercial refrigeration applications</p>
+            
+            <div class="row">
+                <!-- Transcritical Systems -->
+                <div class="col-6">
+                    <div class="system-card">
+                        <div class="system-header">
+                            <i class="fas fa-compress-arrows-alt"></i>
+                            <div>
+                                <h3>Transcritical CO₂ Systems</h3>
+                                <p>High efficiency with heat recovery</p>
+                            </div>
+                        </div>
+                        <div class="system-content">
+                            <p>Advanced CO₂ systems that operate above the critical point, providing excellent efficiency and heat recovery capabilities for commercial applications.</p>
+                            
+                            <ul class="system-features">
+                                <li><i class="fas fa-check-circle"></i> <strong>Exceptional efficiency</strong> in low and high temperatures</li>
+                                <li><i class="fas fa-check-circle"></i> <strong>Simultaneous heating & cooling</strong> with heat recovery</li>
+                                <li><i class="fas fa-check-circle"></i> <strong>Energy savings</strong> up to 20% vs traditional HFCs</li>
+                            </ul>
+                            
+                            <div class="application-badge">
+                                <strong>Best For:</strong> Supermarkets, convenience stores, food service operations
+                            </div>
+                            
+                            <div class="system-tags">
+                                <span class="system-tag">GWP: 1</span>
+                                <span class="system-tag">Safety: A1</span>
+                                <span class="system-tag">Efficiency: High</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cascade Systems -->
+                <div class="col-6">
+                    <div class="system-card">
+                        <div class="system-header">
+                            <i class="fas fa-layer-group"></i>
+                            <div>
+                                <h3>Cascade CO₂ Systems</h3>
+                                <p>Multi-stage for ultra-low temperatures</p>
+                            </div>
+                        </div>
+                        <div class="system-content">
+                            <p>Multi-stage systems where CO₂ operates as a direct-expansion refrigerant in the lower stage for deep freezing applications.</p>
+                            
+                            <ul class="system-features">
+                                <li><i class="fas fa-check-circle"></i> <strong>Optimal for low temperatures</strong> (-40°C to -50°C)</li>
+                                <li><i class="fas fa-check-circle"></i> <strong>Improved efficiency</strong> for deep freezing</li>
+                                <li><i class="fas fa-check-circle"></i> <strong>Compact design</strong> saves valuable space</li>
+                            </ul>
+                            
+                            <div class="application-badge">
+                                <strong>Best For:</strong> Industrial freezing, cold storage, pharmaceutical storage
+                            </div>
+                            
+                            <div class="system-tags">
+                                <span class="system-tag">Temp: -40°C to -50°C</span>
+                                <span class="system-tag">Industrial grade</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-top: 30px;">
+                <!-- Secondary Systems -->
+                <div class="col-6">
+                    <div class="system-card">
+                        <div class="system-header">
+                            <i class="fas fa-recycle"></i>
+                            <div>
+                                <h3>Secondary CO₂ Systems</h3>
+                                <p>CO₂ as chilled fluid</p>
+                            </div>
+                        </div>
+                        <div class="system-content">
+                            <p>Systems where CO₂ circulates as a chilled secondary fluid, absorbing heat without changing state.</p>
+                            
+                            <ul class="system-features">
+                                <li><i class="fas fa-check-circle"></i> <strong>Simpler system design</strong> with reduced complexity</li>
+                                <li><i class="fas fa-check-circle"></i> <strong>Lower refrigerant charge</strong> requirements</li>
+                                <li><i class="fas fa-check-circle"></i> <strong>Enhanced safety</strong> in sensitive environments</li>
+                            </ul>
+                            
+                            <div class="application-badge">
+                                <strong>Best For:</strong> Data centers, industrial process cooling, district cooling
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Condensing Units -->
+                <div class="col-6">
+                    <div class="system-card">
+                        <div class="system-header">
+                            <i class="fas fa-box"></i>
+                            <div>
+                                <h3>CO₂ Condensing Units</h3>
+                                <p>Compact packaged solutions</p>
+                            </div>
+                        </div>
+                        <div class="system-content">
+                            <p>Pre-engineered CO₂ condensing units providing plug-and-play solutions for commercial refrigeration.</p>
+                            
+                            <ul class="system-features">
+                                <li><i class="fas fa-check-circle"></i> <strong>Compact and quiet designs</strong> for urban environments</li>
+                                <li><i class="fas fa-check-circle"></i> <strong>Reliable operation</strong> in warm climates up to 46°C</li>
+                                <li><i class="fas fa-check-circle"></i> <strong>Remote monitoring</strong> capabilities</li>
+                            </ul>
+                            
+                            <div class="application-badge">
+                                <strong>Best For:</strong> Convenience stores, cold rooms, small supermarkets
+                            </div>
+                            
+                            <div class="system-tags">
+                                <span class="system-tag">Capacity: 4.6-20 kW</span>
+                                <span class="system-tag">Plug & play</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- R290 Systems Section -->
+    <section id="r290-systems">
+        <div class="container">
+            <h2 class="section-title text-center">R290 (Propane) Refrigeration Systems</h2>
+            <p class="section-subtitle text-center">EPA-compliant natural refrigerant solutions for self-contained merchandisers and display cases</p>
+            
+            <div class="row">
+                <!-- Breeze-E System -->
+                <div class="col-4">
+                    <div class="r290-card">
+                        <div class="r290-header">
+                            <i class="fas fa-wind"></i>
+                            <h3>Breeze-E™ System</h3>
+                            <p style="opacity: 0.9;">Slide-out design for easy maintenance</p>
+                        </div>
+                        <div class="r290-content">
+                            <p>Innovative slide-out design with variable speed compressor technology for optimal efficiency.</p>
+                            <ul class="system-features">
+                                <li><i class="fas fa-check-circle"></i> <strong>Slide-out design</strong> for easy service</li>
+                                <li><i class="fas fa-check-circle"></i> <strong>Variable speed compressor</strong></li>
+                                <li><i class="fas fa-check-circle"></i> <strong>Oversized condenser coil</strong></li>
+                            </ul>
+                            <div class="system-tags">
+                                <span class="system-tag">Charge: <150g</span>
+                                <span class="system-tag">NSF Type II</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Single Circuit -->
+                <div class="col-4">
+                    <div class="r290-card">
+                        <div class="r290-header">
+                            <i class="fas fa-circle"></i>
+                            <h3>Single Circuit System</h3>
+                            <p style="opacity: 0.9;">Optimized for smaller applications</p>
+                        </div>
+                        <div class="r290-content">
+                            <p>Compact, efficient single-circuit R290 system for smaller merchandisers.</p>
+                            <ul class="system-features">
+                                <li><i class="fas fa-check-circle"></i> <strong>28% avg energy savings</strong></li>
+                                <li><i class="fas fa-check-circle"></i> <strong>Low refrigerant charge</strong></li>
+                                <li><i class="fas fa-check-circle"></i> <strong>Plug-and-play design</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Dual Circuit -->
+                <div class="col-4">
+                    <div class="r290-card">
+                        <div class="r290-header">
+                            <i class="fas fa-adjust"></i>
+                            <h3>Dual Circuit System</h3>
+                            <p style="opacity: 0.9;">Higher capacity applications</p>
+                        </div>
+                        <div class="r290-content">
+                            <p>Advanced dual-circuit system providing greater cooling capacity.</p>
+                            <ul class="system-features">
+                                <li><i class="fas fa-check-circle"></i> <strong>9% avg energy savings</strong></li>
+                                <li><i class="fas fa-check-circle"></i> <strong>Multi-circuit design</strong></li>
+                                <li><i class="fas fa-check-circle"></i> <strong>Redundant operation</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- R290 Stats -->
+            <div class="row" style="margin-top: 4rem;">
+                <div class="col-3">
+                    <div class="stat-box">
+                        <div class="number">28%</div>
+                        <div class="label">Average Energy Savings (Single Circuit)</div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="stat-box">
+                        <div class="number"><150g</div>
+                        <div class="label">Low Refrigerant Charge</div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="stat-box">
+                        <div class="number">GWP=3</div>
+                        <div class="label">Global Warming Potential</div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="stat-box">
+                        <div class="number">0</div>
+                        <div class="label">Ozone Depletion Potential</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section class="bg-light" id="technology">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <span style="color: #2ea9a4; font-weight: 600;">Why CO₂ Stands Out</span>
+                    <h2 class="section-title">Natural Refrigerant Technology</h2>
+                    
+                    <div class="tech-feature">
+                        <div class="tech-icon">
+                            <i class="fas fa-globe-asia"></i>
+                        </div>
+                        <div>
+                            <h4>Eco-Friendly & Safe</h4>
+                            <p>Zero ozone depletion, minimal GWP (CO₂ = 1, R290 = 3), non-toxic and safe for people and facilities.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-feature">
+                        <div class="tech-icon">
+                            <i class="fas fa-dollar-sign"></i>
+                        </div>
+                        <div>
+                            <h4>Cost-Effective</h4>
+                            <p>Smaller footprint, reduced operational costs with lower energy consumption, widely available low-cost refrigerants.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-feature">
+                        <div class="tech-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <div>
+                            <h4>Exceptional Efficiency</h4>
+                            <p>Operates efficiently at various temperatures with simultaneous heating and cooling capabilities.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6">
+                    <div class="card card-primary" style="background: linear-gradient(135deg, #0a2a42, #1c5d8f);">
+                        <h3 style="color: white; margin-bottom: 1.5rem;">Future-Proof Your Operation</h3>
+                        <ul style="list-style: none;">
+                            <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem;">
+                                <i class="fas fa-check-circle" style="color: #2ea9a4;"></i>
+                                <span>Meets current & future environmental regulations</span>
+                            </li>
+                            <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem;">
+                                <i class="fas fa-check-circle" style="color: #2ea9a4;"></i>
+                                <span>20-30% reduction in carbon footprint</span>
+                            </li>
+                            <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem;">
+                                <i class="fas fa-check-circle" style="color: #2ea9a4;"></i>
+                                <span>No phase-out concerns - permanent solution</span>
+                            </li>
+                            <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem;">
+                                <i class="fas fa-check-circle" style="color: #2ea9a4;"></i>
+                                <span>Increased property value with green technology</span>
+                            </li>
+                        </ul>
+                        
+                        <div style="margin-top: 2rem;">
+                            <a href="#contact" class="btn btn-light">Inquire About Retrofit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Danfoss Partnership -->
+    <section>
+        <div class="container">
+            <div class="partner-card">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <div class="partner-logo-placeholder" style="width: 100%; height: 100px;">DANFOSS</div>
+                    </div>
+                    <div class="col-8" style="text-align: left;">
+                        <h3>Official Danfoss Technology Partner</h3>
+                        <p>Tabreed is proud to be an official partner of Danfoss, the global leader in refrigeration technology. This partnership gives us access to:</p>
+                        <div class="row">
+                            <div class="col-6">
+                                <ul style="list-style: none;">
+                                    <li><i class="fas fa-check-circle" style="color: #2ea9a4;"></i> Latest CO₂ & R290 technology</li>
+                                    <li><i class="fas fa-check-circle" style="color: #2ea9a4;"></i> Advanced components & controls</li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul style="list-style: none;">
+                                    <li><i class="fas fa-check-circle" style="color: #2ea9a4;"></i> Priority technical support</li>
+                                    <li><i class="fas fa-check-circle" style="color: #2ea9a4;"></i> Factory-trained technicians</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Danfoss Units -->
+    <section class="bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Danfoss CO₂ Condensing Units</h2>
+            <p class="section-subtitle text-center">High-performance, reliable, and energy-efficient CO₂ solutions</p>
+            
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <h3 style="color: #0056b3;">Optyma™ iCO₂ 4.6kW</h3>
+                        <p class="system-tag" style="display: inline-block;">Compact plug-and-play</p>
+                        <ul class="system-features" style="margin-top: 1rem;">
+                            <li><i class="fas fa-check-circle"></i> Capacity: 4.6 kW</li>
+                            <li><i class="fas fa-check-circle"></i> Noise: 35 dB(A) at 10m</li>
+                            <li><i class="fas fa-check-circle"></i> Ambient up to 46°C</li>
+                            <li><i class="fas fa-check-circle"></i> Stackable up to 2 units</li>
+                        </ul>
+                        <p><small>Ideal for convenience stores & small cold rooms</small></p>
+                    </div>
+                </div>
+                
+                <div class="col-4">
+                    <div class="card">
+                        <h3 style="color: #0056b3;">Optyma™ iCO₂ 20MT</h3>
+                        <p class="system-tag" style="display: inline-block;">Medium Temperature</p>
+                        <ul class="system-features" style="margin-top: 1rem;">
+                            <li><i class="fas fa-check-circle"></i> Medium temp application</li>
+                            <li><i class="fas fa-check-circle"></i> Noise: 46 dB(A) at 10m</li>
+                            <li><i class="fas fa-check-circle"></i> Ambient up to 43°C</li>
+                            <li><i class="fas fa-check-circle"></i> Remote monitoring ready</li>
+                        </ul>
+                        <p><small>For supermarkets & food service</small></p>
+                    </div>
+                </div>
+                
+                <div class="col-4">
+                    <div class="card">
+                        <h3 style="color: #0056b3;">Optyma™ iCO₂ 10LT</h3>
+                        <p class="system-tag" style="display: inline-block;">Low Temperature</p>
+                        <ul class="system-features" style="margin-top: 1rem;">
+                            <li><i class="fas fa-check-circle"></i> Low temp application</li>
+                            <li><i class="fas fa-check-circle"></i> Variable load operation</li>
+                            <li><i class="fas fa-check-circle"></i> Ambient up to 43°C</li>
+                            <li><i class="fas fa-check-circle"></i> Energy-efficient freezing</li>
+                        </ul>
+                        <p><small>For freezing & cold storage</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Served -->
+    <section class="bg-primary" style="color: white;">
+        <div class="container">
+            <h2 style="color: white; text-align: center; margin-bottom: 3rem;">Industries We Serve</h2>
+            
+            <div class="row">
+                <div class="col-3">
+                    <div style="text-align: center;">
+                        <i class="fas fa-store" style="font-size: 3rem; color: #2ea9a4; margin-bottom: 1rem;"></i>
+                        <h4 style="color: white;">Food Retail</h4>
+                        <p style="opacity: 0.9;">Supermarkets, convenience stores</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div style="text-align: center;">
+                        <i class="fas fa-warehouse" style="font-size: 3rem; color: #2ea9a4; margin-bottom: 1rem;"></i>
+                        <h4 style="color: white;">Cold Storage</h4>
+                        <p style="opacity: 0.9;">Warehouses, distribution centers</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div style="text-align: center;">
+                        <i class="fas fa-utensils" style="font-size: 3rem; color: #2ea9a4; margin-bottom: 1rem;"></i>
+                        <h4 style="color: white;">Food Service</h4>
+                        <p style="opacity: 0.9;">Restaurants, catering</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div style="text-align: center;">
+                        <i class="fas fa-pills" style="font-size: 3rem; color: #2ea9a4; margin-bottom: 1rem;"></i>
+                        <h4 style="color: white;">Pharmaceutical</h4>
+                        <p style="opacity: 0.9;">Storage, processing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Frequently Asked Questions</h2>
+            <p class="section-subtitle text-center">Get answers to common questions about CO₂ and R290 refrigeration systems</p>
+            
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Why choose natural refrigerants over traditional refrigerants?</span>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Natural refrigerants like CO₂ (R744) and R290 (Propane) have minimal environmental impact with GWP of 1 and 3 respectively, compared to thousands for traditional HFCs. CO₂ is non-flammable (A1 safety rating) ideal for large centralized systems, while R290 offers superior energy efficiency (up to 28% savings) for self-contained units. Both comply with current and future environmental regulations.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>What's the difference between CO₂ and R290 systems?</span>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>CO₂ (R744) is used primarily in large centralized systems like supermarket racks, cold storage, and industrial applications. It operates at very high pressures and is non-flammable. R290 (Propane) is used in self-contained units like merchandisers, display cases, and smaller refrigeration equipment. It offers excellent energy efficiency but is flammable, so systems use low refrigerant charges (<150g) for safety.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>What energy savings can I expect with R290 systems?</span>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>R290 systems typically provide significant energy savings: up to 28% average reduction for single circuit systems and 9% for dual circuit systems compared to traditional HFCs. The variable speed compressor technology optimizes energy consumption by managing compressor cycles based on demand.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Do CO₂ systems work in warm UAE climates?</span>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! Modern transcritical CO₂ systems with ejector technology are specifically designed for warm climates. They maintain high efficiency even at ambient temperatures above 40°C, making them ideal for UAE conditions. Our systems are optimized for local climate conditions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title text-center">Contact Our Natural Refrigerant Specialists</h2>
+            <p class="section-subtitle text-center">Get expert advice on CO₂ and R290 refrigeration solutions</p>
+            
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" placeholder="+971 XX XXX XXXX" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Email Address</label>
+                        <input type="email" class="form-control" placeholder="your@email.com" required>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label">System Type</label>
+                            <select class="form-control">
+                                <option>CO₂ (R744) System</option>
+                                <option>R290 (Propane) System</option>
+                                <option>Retrofit Existing System</option>
+                                <option>Unsure - Need Advice</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Industry</label>
+                            <select class="form-control">
+                                <option>Supermarket/Grocery</option>
+                                <option>Cold Storage</option>
+                                <option>Food Service</option>
+                                <option>Industrial</option>
+                                <option>Other Commercial</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Message</label>
+                        <textarea class="form-control" rows="5" placeholder="Tell us about your refrigeration needs..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" style="width: 100%; padding: 1rem;">
+                        <i class="fas fa-paper-plane"></i> Submit Inquiry
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <h4>Tabreed</h4>
+                    <p style="color: #999;">Leading provider of natural refrigerant solutions across UAE.</p>
+                </div>
+                
+                <div class="col-3">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#co2-systems">CO₂ Systems</a></li>
+                        <li><a href="#r290-systems">R290 Systems</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-3">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Installation</a></li>
+                        <li><a href="#">Maintenance</a></li>
+                        <li><a href="#">Retrofit</a></li>
+                        <li><a href="#">24/7 Emergency</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-3">
+                    <h4>Contact</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Dubai, UAE</li>
+                        <li><i class="fas fa-phone"></i> +971 12 345 678</li>
+                        <li><i class="fas fa-envelope"></i> info@tabreed.ae</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2024 Tabreed. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        function toggleMenu() {
+            document.getElementById('navMenu').classList.toggle('active');
+        }
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if(target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+                
+                // Close mobile menu if open
+                document.getElementById('navMenu').classList.remove('active');
+            });
+        });
+        
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            if(window.scrollY > 100) {
+                header.style.background = 'rgba(255,255,255,0.98)';
+                header.style.backdropFilter = 'blur(10px)';
+            } else {
+                header.style.background = 'white';
+                header.style.backdropFilter = 'none';
+            }
+        });
+        
+        // FAQ Toggle
+        function toggleFAQ(element) {
+            const answer = element.nextElementSibling;
+            const icon = element.querySelector('i');
+            
+            // Toggle current FAQ
+            answer.classList.toggle('active');
+            icon.classList.toggle('fa-plus');
+            icon.classList.toggle('fa-minus');
+            
+            // Close other FAQs
+            const allFaqs = document.querySelectorAll('.faq-item');
+            allFaqs.forEach(faq => {
+                const q = faq.querySelector('.faq-question');
+                const a = faq.querySelector('.faq-answer');
+                const i = faq.querySelector('i');
+                
+                if(q !== element && a.classList.contains('active')) {
+                    a.classList.remove('active');
+                    i.classList.remove('fa-minus');
+                    i.classList.add('fa-plus');
+                }
+            });
+        }
+        
+        // Form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your inquiry! Our natural refrigerant specialists will contact you within 24 hours.');
+            this.reset();
+        });
+        
+        // Active navigation highlighting
+        const sections = document.querySelectorAll('section[id]');
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if(scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            document.querySelectorAll('.nav-menu a').forEach(link => {
+                link.classList.remove('active');
+                if(link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
