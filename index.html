@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CO₂ & R290 Refrigeration Systems | Natural Refrigerants | Tabreed</title>
+    <title>CO₂ (R744) & R290 Refrigeration Systems | Tabreed Canada</title>
     
     <!-- Meta Tags -->
-    <meta name="description" content="Tabreed specializes in CO₂ (R744) and R290 (Propane) natural refrigerant systems. Professional installation, maintenance, and retrofit solutions for commercial refrigeration across UAE.">
-    <meta name="keywords" content="CO2 refrigeration, R744 systems, R290 refrigerant, propane refrigeration, natural refrigerant, commercial refrigeration, sustainable cooling, UAE refrigeration">
-    <meta name="author" content="Tabreed">
+    <meta name="description" content="Tabreed Canada specializes in CO₂ (R744) and R290 (Propane) natural refrigerant systems. Professional installation, maintenance, and service for commercial refrigeration across Canada. Danfoss Optyma™ iCO₂ partner.">
+    <meta name="keywords" content="CO2 refrigeration, R744 systems, R290 refrigerant, propane refrigeration, natural refrigerant, commercial refrigeration, sustainable cooling, Canada, Danfoss Optyma iCO2">
+    <meta name="author" content="Tabreed Canada">
     
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -36,7 +36,7 @@
             padding: 0 20px;
         }
 
-        /* Header - Same as BMS page */
+        /* Header */
         .header {
             background: white;
             box-shadow: 0 2px 20px rgba(0,0,0,0.1);
@@ -156,7 +156,7 @@
             cursor: pointer;
         }
 
-        /* Hero Section - CO2 Theme */
+        /* Hero Section */
         .hero {
             background: linear-gradient(135deg, #0a2a42 0%, #1c5d8f 100%);
             color: white;
@@ -308,11 +308,6 @@
             padding: 0 15px;
         }
 
-        .col-2 {
-            flex: 0 0 16.666%;
-            padding: 0 15px;
-        }
-
         .col-3 {
             flex: 0 0 25%;
             padding: 0 15px;
@@ -408,7 +403,7 @@
             color: white;
         }
 
-        /* System Cards */
+        /* System Cards (CO₂) */
         .system-card {
             background: white;
             border-radius: 16px;
@@ -527,6 +522,10 @@
             margin-bottom: 0.25rem;
         }
 
+        .r290-header p {
+            opacity: 0.9;
+        }
+
         .r290-content {
             padding: 2rem;
         }
@@ -580,21 +579,33 @@
             background: white;
             border-radius: 12px;
             padding: 2.5rem;
-            text-align: center;
             box-shadow: 0 5px 20px rgba(0,0,0,0.05);
         }
 
-        .partner-logo-placeholder {
-            width: 150px;
-            height: 70px;
-            background: #f5f5f5;
-            border-radius: 8px;
+        /* Image styles - updated for actual images */
+        .product-image {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: contain;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    border: 1px solid #2ea9a4;
+    background: #f0f7ff;
+    display: block;
+}
+        .logo-image {
+            height: 60px;
+            width: auto;
+            max-width: 120px;
+            object-fit: contain;
+        }
+        .danfoss-logo-row {
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 0 auto 1.5rem;
-            font-weight: 600;
-            color: #999;
+            gap: 2rem;
+            margin-bottom: 2rem;
         }
 
         /* FAQ Section */
@@ -619,10 +630,6 @@
 
         .faq-question i {
             transition: transform 0.3s;
-        }
-
-        .faq-question.active i {
-            transform: rotate(45deg);
         }
 
         .faq-answer {
@@ -679,7 +686,7 @@
             gap: 1.5rem;
         }
 
-        /* Footer - Same as BMS page */
+        /* Footer */
         .footer {
             background: #1a1a1a;
             color: #999;
@@ -837,7 +844,7 @@
         <div class="header-container">
             <div class="logo">
                 <div class="logo-icon">T</div>
-                <span class="logo-text">Tabreed</span>
+                <span class="logo-text">Tabreed Canada</span>
             </div>
             
             <div class="mobile-menu" onclick="toggleMenu()">
@@ -847,7 +854,7 @@
             <nav>
                 <ul class="nav-menu" id="navMenu">
                     <li><a href="#home" class="active">Home</a></li>
-                    <li><a href="#about">About</a></li>
+                    <li><a href="#about">About Us</a></li>
                     <li><a href="#co2-systems">CO₂ Systems</a></li>
                     <li><a href="#r290-systems">R290 Systems</a></li>
                     <li><a href="#technology">Technology</a></li>
@@ -856,26 +863,26 @@
             </nav>
             
             <div class="header-cta">
-                <a href="tel:+97112345678" class="btn btn-outline">
-                    <i class="fas fa-phone"></i> +971 12 345 678
+                <a href="tel:+12345678901" class="btn btn-outline">
+                    <i class="fas fa-phone"></i> +1 234 567 8901
                 </a>
             </div>
         </div>
     </header>
 
-    <!-- Hero Section -->
+    <!-- Hero Section (combined) -->
     <section class="hero" id="home">
         <div class="container">
             <div class="hero-content">
                 <span class="hero-badge">
-                    <i class="fas fa-leaf"></i> Natural Refrigerants
+                    <i class="fas fa-leaf"></i> WE PROVIDE THE WORLD'S MOST RELIABLE SUSTAINABLE CO₂ & R290 CLIMATE SERVICES
                 </span>
-                <h1>CO₂ (R744) & R290 Refrigeration Systems for Sustainable Cooling</h1>
-                <p class="lead">Professional installation, commissioning, and maintenance of eco-friendly CO₂ and R290 natural refrigerant systems for commercial and industrial applications across UAE.</p>
+                <h1>CO₂ (R744) & R290 (Propane) Natural Refrigerant Systems</h1>
+                <p class="lead">Professional installation, commissioning, and maintenance of eco-friendly CO₂ and R290 systems for commercial and industrial applications across Canada.</p>
                 
                 <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
                     <a href="#contact" class="btn btn-light btn-lg">
-                        <i class="fas fa-comments"></i> Talk to Our Experts
+                        <i class="fas fa-comments"></i> Schedule a Technician Visit
                     </a>
                     <a href="#co2-systems" class="btn btn-outline" style="background: transparent; color: white; border-color: white;">
                         <i class="fas fa-play"></i> Explore Systems
@@ -892,37 +899,35 @@
                         <span class="stat-label">R290 (Propane)</span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number">28%</span>
-                        <span class="stat-label">Energy Savings</span>
+                        <span class="stat-number">A1/A3</span>
+                        <span class="stat-label">Safety Ratings</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- About Us Section (PDF-based) -->
     <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-6">
-                    <h2 class="section-title">Natural Refrigeration Specialists</h2>
-                    <p class="lead" style="color: #2ea9a4; font-weight: 600;">Leading the transition to sustainable refrigeration since 2005</p>
-                    <p>Tabreed is a leader in sustainable refrigeration technology, specializing in CO₂ (R744) and R290 (Propane) systems for commercial and industrial applications across UAE. We've been at the forefront of the natural refrigerant revolution.</p>
-                    <p>What sets us apart is our deep expertise in both transcritical CO₂ systems and R290 self-contained refrigeration, along with our partnership with Danfoss, the global leader in refrigeration technology.</p>
+                    <h2 class="section-title">Our Mission & Work</h2>
+                    <p class="lead" style="color: #2ea9a4; font-weight: 600;">Perfect for versatile applications</p>
+                    <p>Tabreed Canada specializes in installing, commissioning, servicing, and maintaining CO₂ (R744) and R290 (Propane) refrigeration systems. CO₂ delivers a balance of environmental responsibility, operational safety, and reliable performance. R290 offers excellent energy efficiency for self-contained units.</p>
+                    <p><strong>♻️ Eco-Friendly & Safe:</strong> Zero ozone depletion, GWP=1 (CO₂), GWP=3 (R290), non-toxic. CO₂ is non-flammable (A1); R290 is flammable (A3) but used in low charges.<br>
+                    <strong>💰 Cost-Effective & Compact:</strong> Smaller footprint, reduced operational costs, widely available low-cost refrigerants.<br>
+                    <strong>⚡ Exceptional Efficiency:</strong> Simultaneous heating & cooling with CO₂; energy savings with R290.</p>
                     
                     <div style="margin-top: 2rem;">
                         <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
                             <div>
                                 <h3 style="color: #2ea9a4; font-size: 2rem; margin-bottom: 0;">20+</h3>
-                                <p>Years Experience</p>
+                                <p>Years Danfoss Expertise</p>
                             </div>
                             <div>
-                                <h3 style="color: #2ea9a4; font-size: 2rem; margin-bottom: 0;">1000+</h3>
-                                <p>Systems Installed</p>
-                            </div>
-                            <div>
-                                <h3 style="color: #2ea9a4; font-size: 2rem; margin-bottom: 0;">24/7</h3>
-                                <p>Emergency Support</p>
+                                <h3 style="color: #2ea9a4; font-size: 2rem; margin-bottom: 0;">Up to 30%</h3>
+                                <p>Carbon footprint reduction</p>
                             </div>
                         </div>
                     </div>
@@ -931,23 +936,23 @@
                 <div class="col-6">
                     <div style="background: linear-gradient(135deg, #0a2a42, #1c5d8f); border-radius: 20px; padding: 2.5rem; color: white; height: 100%;">
                         <i class="fas fa-certificate" style="font-size: 3rem; color: #2ea9a4; margin-bottom: 1.5rem;"></i>
-                        <h3 style="color: white;">Why Natural Refrigerants?</h3>
+                        <h3 style="color: white;">Service & Installation</h3>
                         <ul style="list-style: none; margin-top: 1.5rem;">
                             <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem;">
                                 <i class="fas fa-check-circle" style="color: #2ea9a4;"></i>
-                                <span>Zero Ozone Depletion Potential (ODP)</span>
+                                <span>🔧 CO₂-compatible & R290-certified piping</span>
                             </li>
                             <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem;">
                                 <i class="fas fa-check-circle" style="color: #2ea9a4;"></i>
-                                <span>Ultra-low Global Warming Potential (GWP)</span>
+                                <span>🧪 High-pressure testing + leak verification</span>
                             </li>
                             <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem;">
                                 <i class="fas fa-check-circle" style="color: #2ea9a4;"></i>
-                                <span>20-30% Energy Savings vs Traditional HFCs</span>
+                                <span>🔍 Compressor & fan performance check</span>
                             </li>
                             <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem;">
                                 <i class="fas fa-check-circle" style="color: #2ea9a4;"></i>
-                                <span>Future-proof - Compliant with all regulations</span>
+                                <span>🌡️ Charge pressure verification</span>
                             </li>
                         </ul>
                     </div>
@@ -956,13 +961,39 @@
         </div>
     </section>
 
-    <!-- CO₂ System Types Section -->
+    <!-- CO₂ System Types (PDF: Secondary & Transcritical) -->
     <section class="bg-light" id="co2-systems">
         <div class="container">
             <h2 class="section-title text-center">CO₂ (R744) Refrigeration Systems</h2>
-            <p class="section-subtitle text-center">Different CO₂ system configurations for different commercial refrigeration applications</p>
+            <p class="section-subtitle text-center">Two main configurations: Secondary Cooling & Transcritical Systems</p>
             
             <div class="row">
+                <!-- Secondary Systems -->
+                <div class="col-6">
+                    <div class="system-card">
+                        <div class="system-header">
+                            <i class="fas fa-recycle"></i>
+                            <div>
+                                <h3>Secondary Cooling Systems</h3>
+                                <p>CO₂ as chilled fluid, no phase change</p>
+                            </div>
+                        </div>
+                        <div class="system-content">
+                            <p>CO₂ circulates as a chilled fluid and absorbs heat without changing state. Ideal for applications where simplicity and safety are paramount.</p>
+                            
+                            <ul class="system-features">
+                                <li><i class="fas fa-check-circle"></i> <strong>Simpler design</strong> with reduced complexity</li>
+                                <li><i class="fas fa-check-circle"></i> <strong>Lower refrigerant charge</strong></li>
+                                <li><i class="fas fa-check-circle"></i> <strong>Enhanced safety</strong></li>
+                            </ul>
+                            
+                            <div class="application-badge">
+                                <strong>Perfect for:</strong> Data centers, industrial process cooling
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
                 <!-- Transcritical Systems -->
                 <div class="col-6">
                     <div class="system-card">
@@ -974,88 +1005,25 @@
                             </div>
                         </div>
                         <div class="system-content">
-                            <p>Advanced CO₂ systems that operate above the critical point, providing excellent efficiency and heat recovery capabilities for commercial applications.</p>
+                            <p>Today's advanced system designs minimize reliance on HFCs. CO₂ operates as a direct-expansion refrigerant, transferring cooling efficiently.</p>
                             
                             <ul class="system-features">
-                                <li><i class="fas fa-check-circle"></i> <strong>Exceptional efficiency</strong> in low and high temperatures</li>
-                                <li><i class="fas fa-check-circle"></i> <strong>Simultaneous heating & cooling</strong> with heat recovery</li>
-                                <li><i class="fas fa-check-circle"></i> <strong>Energy savings</strong> up to 20% vs traditional HFCs</li>
+                                <li><i class="fas fa-check-circle"></i> <strong>Operates efficiently</strong> at low and high temperatures</li>
+                                <li><i class="fas fa-check-circle"></i> <strong>Simultaneous heating & cooling</strong> – reclaim heat for other processes</li>
+                                <li><i class="fas fa-check-circle"></i> <strong>Up to 20% energy savings</strong> vs traditional HFCs (even in warm climates)</li>
                             </ul>
                             
                             <div class="application-badge">
-                                <strong>Best For:</strong> Supermarkets, convenience stores, food service operations
-                            </div>
-                            
-                            <div class="system-tags">
-                                <span class="system-tag">GWP: 1</span>
-                                <span class="system-tag">Safety: A1</span>
-                                <span class="system-tag">Efficiency: High</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Cascade Systems -->
-                <div class="col-6">
-                    <div class="system-card">
-                        <div class="system-header">
-                            <i class="fas fa-layer-group"></i>
-                            <div>
-                                <h3>Cascade CO₂ Systems</h3>
-                                <p>Multi-stage for ultra-low temperatures</p>
-                            </div>
-                        </div>
-                        <div class="system-content">
-                            <p>Multi-stage systems where CO₂ operates as a direct-expansion refrigerant in the lower stage for deep freezing applications.</p>
-                            
-                            <ul class="system-features">
-                                <li><i class="fas fa-check-circle"></i> <strong>Optimal for low temperatures</strong> (-40°C to -50°C)</li>
-                                <li><i class="fas fa-check-circle"></i> <strong>Improved efficiency</strong> for deep freezing</li>
-                                <li><i class="fas fa-check-circle"></i> <strong>Compact design</strong> saves valuable space</li>
-                            </ul>
-                            
-                            <div class="application-badge">
-                                <strong>Best For:</strong> Industrial freezing, cold storage, pharmaceutical storage
-                            </div>
-                            
-                            <div class="system-tags">
-                                <span class="system-tag">Temp: -40°C to -50°C</span>
-                                <span class="system-tag">Industrial grade</span>
+                                <strong>Best For:</strong> Supermarkets, breweries, dairy (heat spaces while cooling freezers, recover heat for brewing, chill milk and produce hot water)
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             
+            <!-- Condensing Units -->
             <div class="row" style="margin-top: 30px;">
-                <!-- Secondary Systems -->
-                <div class="col-6">
-                    <div class="system-card">
-                        <div class="system-header">
-                            <i class="fas fa-recycle"></i>
-                            <div>
-                                <h3>Secondary CO₂ Systems</h3>
-                                <p>CO₂ as chilled fluid</p>
-                            </div>
-                        </div>
-                        <div class="system-content">
-                            <p>Systems where CO₂ circulates as a chilled secondary fluid, absorbing heat without changing state.</p>
-                            
-                            <ul class="system-features">
-                                <li><i class="fas fa-check-circle"></i> <strong>Simpler system design</strong> with reduced complexity</li>
-                                <li><i class="fas fa-check-circle"></i> <strong>Lower refrigerant charge</strong> requirements</li>
-                                <li><i class="fas fa-check-circle"></i> <strong>Enhanced safety</strong> in sensitive environments</li>
-                            </ul>
-                            
-                            <div class="application-badge">
-                                <strong>Best For:</strong> Data centers, industrial process cooling, district cooling
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Condensing Units -->
-                <div class="col-6">
+                <div class="col-12">
                     <div class="system-card">
                         <div class="system-header">
                             <i class="fas fa-box"></i>
@@ -1088,69 +1056,46 @@
         </div>
     </section>
 
-    <!-- R290 Systems Section -->
+    <!-- R290 Systems Section (from second file, refined) -->
     <section id="r290-systems">
         <div class="container">
             <h2 class="section-title text-center">R290 (Propane) Refrigeration Systems</h2>
             <p class="section-subtitle text-center">EPA-compliant natural refrigerant solutions for self-contained merchandisers and display cases</p>
             
             <div class="row">
-                <!-- Breeze-E System -->
-                <div class="col-4">
-                    <div class="r290-card">
-                        <div class="r290-header">
-                            <i class="fas fa-wind"></i>
-                            <h3>Breeze-E™ System</h3>
-                            <p style="opacity: 0.9;">Slide-out design for easy maintenance</p>
-                        </div>
-                        <div class="r290-content">
-                            <p>Innovative slide-out design with variable speed compressor technology for optimal efficiency.</p>
-                            <ul class="system-features">
-                                <li><i class="fas fa-check-circle"></i> <strong>Slide-out design</strong> for easy service</li>
-                                <li><i class="fas fa-check-circle"></i> <strong>Variable speed compressor</strong></li>
-                                <li><i class="fas fa-check-circle"></i> <strong>Oversized condenser coil</strong></li>
-                            </ul>
-                            <div class="system-tags">
-                                <span class="system-tag">Charge: <150g</span>
-                                <span class="system-tag">NSF Type II</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
                 <!-- Single Circuit -->
-                <div class="col-4">
+                <div class="col-6">
                     <div class="r290-card">
                         <div class="r290-header">
                             <i class="fas fa-circle"></i>
                             <h3>Single Circuit System</h3>
-                            <p style="opacity: 0.9;">Optimized for smaller applications</p>
+                            <p>Optimized for smaller applications</p>
                         </div>
                         <div class="r290-content">
                             <p>Compact, efficient single-circuit R290 system for smaller merchandisers.</p>
                             <ul class="system-features">
-                                <li><i class="fas fa-check-circle"></i> <strong>28% avg energy savings</strong></li>
-                                <li><i class="fas fa-check-circle"></i> <strong>Low refrigerant charge</strong></li>
+                                <li><i class="fas fa-check-circle"></i> <strong>Low refrigerant charge</strong> (<150g)</li>
                                 <li><i class="fas fa-check-circle"></i> <strong>Plug-and-play design</strong></li>
+                                <li><i class="fas fa-check-circle"></i> <strong>Energy efficient</strong></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 
                 <!-- Dual Circuit -->
-                <div class="col-4">
+                <div class="col-6">
                     <div class="r290-card">
                         <div class="r290-header">
                             <i class="fas fa-adjust"></i>
                             <h3>Dual Circuit System</h3>
-                            <p style="opacity: 0.9;">Higher capacity applications</p>
+                            <p>Higher capacity applications</p>
                         </div>
                         <div class="r290-content">
                             <p>Advanced dual-circuit system providing greater cooling capacity.</p>
                             <ul class="system-features">
-                                <li><i class="fas fa-check-circle"></i> <strong>9% avg energy savings</strong></li>
                                 <li><i class="fas fa-check-circle"></i> <strong>Multi-circuit design</strong></li>
                                 <li><i class="fas fa-check-circle"></i> <strong>Redundant operation</strong></li>
+                                <li><i class="fas fa-check-circle"></i> <strong>Higher capacity</strong></li>
                             </ul>
                         </div>
                     </div>
@@ -1159,25 +1104,19 @@
             
             <!-- R290 Stats -->
             <div class="row" style="margin-top: 4rem;">
-                <div class="col-3">
-                    <div class="stat-box">
-                        <div class="number">28%</div>
-                        <div class="label">Average Energy Savings (Single Circuit)</div>
-                    </div>
-                </div>
-                <div class="col-3">
+                <div class="col-4">
                     <div class="stat-box">
                         <div class="number"><150g</div>
                         <div class="label">Low Refrigerant Charge</div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-4">
                     <div class="stat-box">
                         <div class="number">GWP=3</div>
                         <div class="label">Global Warming Potential</div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-4">
                     <div class="stat-box">
                         <div class="number">0</div>
                         <div class="label">Ozone Depletion Potential</div>
@@ -1187,198 +1126,177 @@
         </div>
     </section>
 
-    <!-- Technology Section -->
-    <section class="bg-light" id="technology">
+    <!-- The CO₂ & R290 advantages (combined) -->
+    <section id="technology">
         <div class="container">
+            <h2 class="section-title text-center">Natural Refrigerant Advantages</h2>
+            <p class="section-subtitle text-center">Future-proof your operation with R744 and R290</p>
             <div class="row">
-                <div class="col-6">
-                    <span style="color: #2ea9a4; font-weight: 600;">Why CO₂ Stands Out</span>
-                    <h2 class="section-title">Natural Refrigerant Technology</h2>
-                    
-                    <div class="tech-feature">
-                        <div class="tech-icon">
-                            <i class="fas fa-globe-asia"></i>
-                        </div>
-                        <div>
-                            <h4>Eco-Friendly & Safe</h4>
-                            <p>Zero ozone depletion, minimal GWP (CO₂ = 1, R290 = 3), non-toxic and safe for people and facilities.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="tech-feature">
-                        <div class="tech-icon">
-                            <i class="fas fa-dollar-sign"></i>
-                        </div>
-                        <div>
-                            <h4>Cost-Effective</h4>
-                            <p>Smaller footprint, reduced operational costs with lower energy consumption, widely available low-cost refrigerants.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="tech-feature">
-                        <div class="tech-icon">
-                            <i class="fas fa-bolt"></i>
-                        </div>
-                        <div>
-                            <h4>Exceptional Efficiency</h4>
-                            <p>Operates efficiently at various temperatures with simultaneous heating and cooling capabilities.</p>
-                        </div>
+                <div class="col-4">
+                    <div class="card feature-card">
+                        <div class="feature-icon"><i class="fas fa-leaf"></i></div>
+                        <h3>Eco-Friendly & Safe</h3>
+                        <p>Zero ozone depletion, GWP=1 (CO₂), GWP=3 (R290). CO₂ is non-flammable (A1), R290 used in safe low charges.</p>
                     </div>
                 </div>
-                
-                <div class="col-6">
-                    <div class="card card-primary" style="background: linear-gradient(135deg, #0a2a42, #1c5d8f);">
-                        <h3 style="color: white; margin-bottom: 1.5rem;">Future-Proof Your Operation</h3>
-                        <ul style="list-style: none;">
-                            <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem;">
-                                <i class="fas fa-check-circle" style="color: #2ea9a4;"></i>
-                                <span>Meets current & future environmental regulations</span>
-                            </li>
-                            <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem;">
-                                <i class="fas fa-check-circle" style="color: #2ea9a4;"></i>
-                                <span>20-30% reduction in carbon footprint</span>
-                            </li>
-                            <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem;">
-                                <i class="fas fa-check-circle" style="color: #2ea9a4;"></i>
-                                <span>No phase-out concerns - permanent solution</span>
-                            </li>
-                            <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem;">
-                                <i class="fas fa-check-circle" style="color: #2ea9a4;"></i>
-                                <span>Increased property value with green technology</span>
-                            </li>
-                        </ul>
-                        
-                        <div style="margin-top: 2rem;">
-                            <a href="#contact" class="btn btn-light">Inquire About Retrofit</a>
-                        </div>
+                <div class="col-4">
+                    <div class="card feature-card">
+                        <div class="feature-icon"><i class="fas fa-dollar-sign"></i></div>
+                        <h3>Cost-Effective & Compact</h3>
+                        <p>Smaller footprint, reduced operational costs, widely available low-cost refrigerants, strong lifetime ROI.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card feature-card">
+                        <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+                        <h3>Exceptional Efficiency</h3>
+                        <p>CO₂ operates efficiently at low and high temps with heat recovery. R290 offers excellent energy efficiency in self-contained units.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Danfoss Partnership -->
-    <section>
-        <div class="container">
-            <div class="partner-card">
-                <div class="row align-items-center">
-                    <div class="col-4">
-                        <div class="partner-logo-placeholder" style="width: 100%; height: 100px;">DANFOSS</div>
-                    </div>
-                    <div class="col-8" style="text-align: left;">
-                        <h3>Official Danfoss Technology Partner</h3>
-                        <p>Tabreed is proud to be an official partner of Danfoss, the global leader in refrigeration technology. This partnership gives us access to:</p>
-                        <div class="row">
-                            <div class="col-6">
-                                <ul style="list-style: none;">
-                                    <li><i class="fas fa-check-circle" style="color: #2ea9a4;"></i> Latest CO₂ & R290 technology</li>
-                                    <li><i class="fas fa-check-circle" style="color: #2ea9a4;"></i> Advanced components & controls</li>
-                                </ul>
-                            </div>
-                            <div class="col-6">
-                                <ul style="list-style: none;">
-                                    <li><i class="fas fa-check-circle" style="color: #2ea9a4;"></i> Priority technical support</li>
-                                    <li><i class="fas fa-check-circle" style="color: #2ea9a4;"></i> Factory-trained technicians</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Danfoss Units -->
+    <!-- Danfoss Partnership & Products with actual images -->
     <section class="bg-light">
         <div class="container">
-            <h2 class="section-title text-center">Danfoss CO₂ Condensing Units</h2>
-            <p class="section-subtitle text-center">High-performance, reliable, and energy-efficient CO₂ solutions</p>
+            <!-- Logo and partnership intro with actual logo image -->
+            <div class="danfoss-logo-row">
+                <img src="images/téléchargement (12).png" alt="Danfoss Logo" class="logo-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="display: block;">
+                <h2 style="color: #0056b3;">Trusted Partnership for CO₂ (R744) Refrigeration</h2>
+                
+            </div>
+            <p style="text-align: center; max-width: 900px; margin: 0 auto 2rem;">At Tabreed Canada, we partner with Danfoss, a global leader in CO₂ refrigeration technology with over 20 years of expertise. Danfoss provides advanced components, controls, and system solutions that allow us to design efficient CO₂ systems adapted to our local climate.</p>
             
-            <div class="row">
-                <div class="col-4">
+            <!-- Why we choose Danfoss -->
+            <div class="row" style="margin-bottom: 2rem;">
+                <div class="col-6">
                     <div class="card">
-                        <h3 style="color: #0056b3;">Optyma™ iCO₂ 4.6kW</h3>
-                        <p class="system-tag" style="display: inline-block;">Compact plug-and-play</p>
-                        <ul class="system-features" style="margin-top: 1rem;">
-                            <li><i class="fas fa-check-circle"></i> Capacity: 4.6 kW</li>
-                            <li><i class="fas fa-check-circle"></i> Noise: 35 dB(A) at 10m</li>
-                            <li><i class="fas fa-check-circle"></i> Ambient up to 46°C</li>
-                            <li><i class="fas fa-check-circle"></i> Stackable up to 2 units</li>
+                        <h3>Why Tabreed Recommends Danfoss</h3>
+                        <ul class="system-features">
+                            <li><i class="fas fa-check-circle"></i> High energy efficiency for medium and low temp applications</li>
+                            <li><i class="fas fa-check-circle"></i> Compact and quiet designs, ideal for urban environments</li>
+                            <li><i class="fas fa-check-circle"></i> Lower refrigerant charge and optimized system safety</li>
+                            <li><i class="fas fa-check-circle"></i> Reliable operation in warm climates (up to 46°C ambient)</li>
+                            <li><i class="fas fa-check-circle"></i> Up to 20% energy savings compared to traditional HFC systems</li>
+                            <li><i class="fas fa-check-circle"></i> Up to 30% reduction in carbon footprint at store level</li>
                         </ul>
-                        <p><small>Ideal for convenience stores & small cold rooms</small></p>
                     </div>
                 </div>
-                
-                <div class="col-4">
+                <div class="col-6">
                     <div class="card">
-                        <h3 style="color: #0056b3;">Optyma™ iCO₂ 20MT</h3>
-                        <p class="system-tag" style="display: inline-block;">Medium Temperature</p>
-                        <ul class="system-features" style="margin-top: 1rem;">
-                            <li><i class="fas fa-check-circle"></i> Medium temp application</li>
-                            <li><i class="fas fa-check-circle"></i> Noise: 46 dB(A) at 10m</li>
-                            <li><i class="fas fa-check-circle"></i> Ambient up to 43°C</li>
-                            <li><i class="fas fa-check-circle"></i> Remote monitoring ready</li>
+                        <h3>Our Service Includes</h3>
+                        <ul class="system-features">
+                            <li><i class="fas fa-check-circle"></i> Compressor & fan performance check</li>
+                            <li><i class="fas fa-check-circle"></i> CO₂ charge pressure verification</li>
+                            <li><i class="fas fa-check-circle"></i> Heat exchanger & gas cooler cleaning</li>
+                            <li><i class="fas fa-check-circle"></i> Electrical component & safety device test</li>
+                            <li><i class="fas fa-check-circle"></i> Site assessment (electrical capacity, ventilation)</li>
+                            <li><i class="fas fa-check-circle"></i> CO₂-compatible piping & connections</li>
                         </ul>
-                        <p><small>For supermarkets & food service</small></p>
-                    </div>
-                </div>
-                
-                <div class="col-4">
-                    <div class="card">
-                        <h3 style="color: #0056b3;">Optyma™ iCO₂ 10LT</h3>
-                        <p class="system-tag" style="display: inline-block;">Low Temperature</p>
-                        <ul class="system-features" style="margin-top: 1rem;">
-                            <li><i class="fas fa-check-circle"></i> Low temp application</li>
-                            <li><i class="fas fa-check-circle"></i> Variable load operation</li>
-                            <li><i class="fas fa-check-circle"></i> Ambient up to 43°C</li>
-                            <li><i class="fas fa-check-circle"></i> Energy-efficient freezing</li>
-                        </ul>
-                        <p><small>For freezing & cold storage</small></p>
                     </div>
                 </div>
             </div>
+
+            <!-- Danfoss Optyma™ iCO₂ Units with actual images -->
+            <h3 class="text-center" style="margin: 3rem 0 2rem;">Danfoss Optyma™ iCO₂ Condensing Units</h3>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <!-- Image for 4.6 kW unit -->
+                        <img src="images/Screenshot 2026-02-27 232546.png" alt="Optyma iCO2 4.6 kW Unit" class="product-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="product-image-placeholder" style="display: none; width:100%; height:160px; background:#e0f0f0; border-radius:12px; align-items:center; justify-content:center; color:#2ea9a4; font-weight:500; margin-bottom:1rem; border:2px dashed #2ea9a4;">
+                            <i class="fas fa-image"></i> Optyma™ iCO₂ 4.6 kW
+                        </div>
+                        <h4>Optyma™ iCO₂ 4.6 kW Unit</h4>
+                        <p>Compact, plug-and-play CO₂ condensing unit for small commercial applications. Ideal for convenience stores, small cold rooms, standalone systems.</p>
+                        <ul class="system-features">
+                            <li><i class="fas fa-check-circle"></i> Silent operation: max 35 dB(A) at 10m</li>
+                            <li><i class="fas fa-check-circle"></i> Up to 46°C ambient, stackable up to two units</li>
+                            <li><i class="fas fa-check-circle"></i> Connectable to Danfoss System Managers</li>
+                            <li><i class="fas fa-check-circle"></i> Fast setup with two-door access</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <!-- Image for 20MT unit (combined with 10LT) -->
+                        <img src="images/Screenshot 2026-02-27 232610.png" alt="Optyma iCO2 20MT & 10LT Units" class="product-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="product-image-placeholder" style="display: none; width:100%; height:160px; background:#e0f0f0; border-radius:12px; align-items:center; justify-content:center; color:#2ea9a4; font-weight:500; margin-bottom:1rem; border:2px dashed #2ea9a4;">
+                            <i class="fas fa-image"></i> Optyma™ iCO₂ 20MT
+                        </div>
+                        <h4>Optyma™ iCO₂ 20MT (Medium Temp)</h4>
+                        <p>Designed for medium-temperature refrigeration in supermarkets, cold rooms, and food service.</p>
+                        <ul class="system-features">
+                            <li><i class="fas fa-check-circle"></i> Variable load operation up to 43°C ambient</li>
+                            <li><i class="fas fa-check-circle"></i> Noise: max 46 dB(A) at 10m</li>
+                            <li><i class="fas fa-check-circle"></i> Dedicated oil management for reliability</li>
+                            <li><i class="fas fa-check-circle"></i> Maintains cooling capacity at high ambient</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <!-- Use same image or placeholder for 10LT -->
+                        <img src="images/Screenshot 2026-02-27 232610.png" alt="Optyma iCO2 10LT Unit" class="product-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="product-image-placeholder" style="display: none; width:100%; height:160px; background:#e0f0f0; border-radius:12px; align-items:center; justify-content:center; color:#2ea9a4; font-weight:500; margin-bottom:1rem; border:2px dashed #2ea9a4;">
+                            <i class="fas fa-image"></i> Optyma™ iCO₂ 10LT
+                        </div>
+                        <h4>Optyma™ iCO₂ 10LT (Low Temp)</h4>
+                        <p>Robust performance for low-temperature applications, freezing, and cold storage.</p>
+                        <ul class="system-features">
+                            <li><i class="fas fa-check-circle"></i> Low temp application, up to 43°C ambient</li>
+                            <li><i class="fas fa-check-circle"></i> Variable load operation</li>
+                            <li><i class="fas fa-check-circle"></i> Connectable to System Managers for optimization</li>
+                            <li><i class="fas fa-check-circle"></i> Energy-efficient freezing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center mt-4"><a href="#contact" class="btn btn-primary">Learn more about Danfoss</a></p>
         </div>
     </section>
 
-    <!-- Industries Served -->
+    <!-- Industries Served (from PDF) -->
     <section class="bg-primary" style="color: white;">
         <div class="container">
-            <h2 style="color: white; text-align: center; margin-bottom: 3rem;">Industries We Serve</h2>
+            <h2 style="color: white; text-align: center; margin-bottom: 3rem;">Applications & Industries</h2>
             
             <div class="row">
                 <div class="col-3">
                     <div style="text-align: center;">
                         <i class="fas fa-store" style="font-size: 3rem; color: #2ea9a4; margin-bottom: 1rem;"></i>
-                        <h4 style="color: white;">Food Retail</h4>
-                        <p style="opacity: 0.9;">Supermarkets, convenience stores</p>
+                        <h4 style="color: white;">Supermarkets</h4>
+                        <p style="opacity: 0.9;">Heat spaces while cooling freezers</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div style="text-align: center;">
+                        <i class="fas fa-beer" style="font-size: 3rem; color: #2ea9a4; margin-bottom: 1rem;"></i>
+                        <h4 style="color: white;">Breweries</h4>
+                        <p style="opacity: 0.9;">Recover heat for brewing</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div style="text-align: center;">
+                        <i class="fas fa-cheese" style="font-size: 3rem; color: #2ea9a4; margin-bottom: 1rem;"></i>
+                        <h4 style="color: white;">Dairy</h4>
+                        <p style="opacity: 0.9;">Chill milk, produce hot water</p>
                     </div>
                 </div>
                 <div class="col-3">
                     <div style="text-align: center;">
                         <i class="fas fa-warehouse" style="font-size: 3rem; color: #2ea9a4; margin-bottom: 1rem;"></i>
                         <h4 style="color: white;">Cold Storage</h4>
-                        <p style="opacity: 0.9;">Warehouses, distribution centers</p>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div style="text-align: center;">
-                        <i class="fas fa-utensils" style="font-size: 3rem; color: #2ea9a4; margin-bottom: 1rem;"></i>
-                        <h4 style="color: white;">Food Service</h4>
-                        <p style="opacity: 0.9;">Restaurants, catering</p>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div style="text-align: center;">
-                        <i class="fas fa-pills" style="font-size: 3rem; color: #2ea9a4; margin-bottom: 1rem;"></i>
-                        <h4 style="color: white;">Pharmaceutical</h4>
-                        <p style="opacity: 0.9;">Storage, processing</p>
+                        <p style="opacity: 0.9;">Pharmaceutical, food processing</p>
                     </div>
                 </div>
             </div>
+            <p class="text-center mt-4" style="color: rgba(255,255,255,0.8);">Convenience stores · Dollar discount stores · Food service · Mass merchandisers · Membership facilities · Warehouse facilities · Pharmaceutical · Food production</p>
         </div>
     </section>
 
-    <!-- FAQ Section -->
+    <!-- FAQ Section (combined) -->
     <section class="bg-light">
         <div class="container">
             <h2 class="section-title text-center">Frequently Asked Questions</h2>
@@ -1391,7 +1309,7 @@
                         <i class="fas fa-plus"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>Natural refrigerants like CO₂ (R744) and R290 (Propane) have minimal environmental impact with GWP of 1 and 3 respectively, compared to thousands for traditional HFCs. CO₂ is non-flammable (A1 safety rating) ideal for large centralized systems, while R290 offers superior energy efficiency (up to 28% savings) for self-contained units. Both comply with current and future environmental regulations.</p>
+                        <p>Natural refrigerants like CO₂ (R744) and R290 (Propane) have minimal environmental impact with GWP of 1 and 3 respectively, compared to thousands for traditional HFCs. CO₂ is non-flammable (A1) ideal for large centralized systems, while R290 offers excellent energy efficiency for self-contained units. Both comply with current and future environmental regulations.</p>
                     </div>
                 </div>
                 
@@ -1407,93 +1325,26 @@
                 
                 <div class="faq-item">
                     <div class="faq-question" onclick="toggleFAQ(this)">
-                        <span>What energy savings can I expect with R290 systems?</span>
+                        <span>What kind of energy savings can I expect?</span>
                         <i class="fas fa-plus"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>R290 systems typically provide significant energy savings: up to 28% average reduction for single circuit systems and 9% for dual circuit systems compared to traditional HFCs. The variable speed compressor technology optimizes energy consumption by managing compressor cycles based on demand.</p>
-                    </div>
-                </div>
-                
-                <div class="faq-item">
-                    <div class="faq-question" onclick="toggleFAQ(this)">
-                        <span>Do CO₂ systems work in warm UAE climates?</span>
-                        <i class="fas fa-plus"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Yes! Modern transcritical CO₂ systems with ejector technology are specifically designed for warm climates. They maintain high efficiency even at ambient temperatures above 40°C, making them ideal for UAE conditions. Our systems are optimized for local climate conditions.</p>
+                        <p>Danfoss CO₂ systems can achieve up to 20% energy savings compared to traditional HFC systems, even in warm climates, and up to 30% reduction in carbon footprint at store level. R290 single-circuit systems can offer significant energy savings as well.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Form -->
-    <section id="contact">
-        <div class="container">
-            <h2 class="section-title text-center">Contact Our Natural Refrigerant Specialists</h2>
-            <p class="section-subtitle text-center">Get expert advice on CO₂ and R290 refrigeration solutions</p>
-            
-            <div class="contact-form">
-                <form id="contactForm">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label class="form-label">Full Name</label>
-                            <input type="text" class="form-control" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <label class="form-label">Phone Number</label>
-                            <input type="tel" class="form-control" placeholder="+971 XX XXX XXXX" required>
-                        </div>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label class="form-label">Email Address</label>
-                        <input type="email" class="form-control" placeholder="your@email.com" required>
-                    </div>
-                    
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label class="form-label">System Type</label>
-                            <select class="form-control">
-                                <option>CO₂ (R744) System</option>
-                                <option>R290 (Propane) System</option>
-                                <option>Retrofit Existing System</option>
-                                <option>Unsure - Need Advice</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label class="form-label">Industry</label>
-                            <select class="form-control">
-                                <option>Supermarket/Grocery</option>
-                                <option>Cold Storage</option>
-                                <option>Food Service</option>
-                                <option>Industrial</option>
-                                <option>Other Commercial</option>
-                            </select>
-                        </div>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label class="form-label">Message</label>
-                        <textarea class="form-control" rows="5" placeholder="Tell us about your refrigeration needs..."></textarea>
-                    </div>
-                    
-                    <button type="submit" class="btn btn-primary" style="width: 100%; padding: 1rem;">
-                        <i class="fas fa-paper-plane"></i> Submit Inquiry
-                    </button>
-                </form>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-3">
-                    <h4>Tabreed</h4>
-                    <p style="color: #999;">Leading provider of natural refrigerant solutions across UAE.</p>
+                    <h4>Tabreed Canada</h4>
+                    <p style="color: #999;">Specialists in CO₂ (R744) and R290 natural refrigeration systems.</p>
                 </div>
                 
                 <div class="col-3">
@@ -1519,43 +1370,35 @@
                 <div class="col-3">
                     <h4>Contact</h4>
                     <ul class="contact-info">
-                        <li><i class="fas fa-map-marker-alt"></i> Dubai, UAE</li>
-                        <li><i class="fas fa-phone"></i> +971 12 345 678</li>
-                        <li><i class="fas fa-envelope"></i> info@tabreed.ae</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Toronto, Canada</li>
+                        <li><i class="fas fa-phone"></i> +1 234 567 8901</li>
+                        <li><i class="fas fa-envelope"></i> info@tabreed.ca</li>
                     </ul>
                 </div>
             </div>
             
             <div class="copyright">
-                <p>&copy; 2024 Tabreed. All rights reserved.</p>
+                <p>&copy; 2024 Tabreed Canada. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
     <script>
-        // Mobile Menu Toggle
         function toggleMenu() {
             document.getElementById('navMenu').classList.toggle('active');
         }
         
-        // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if(target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
-                
-                // Close mobile menu if open
                 document.getElementById('navMenu').classList.remove('active');
             });
         });
         
-        // Header scroll effect
         window.addEventListener('scroll', function() {
             const header = document.querySelector('.header');
             if(window.scrollY > 100) {
@@ -1567,23 +1410,18 @@
             }
         });
         
-        // FAQ Toggle
         function toggleFAQ(element) {
             const answer = element.nextElementSibling;
             const icon = element.querySelector('i');
-            
-            // Toggle current FAQ
             answer.classList.toggle('active');
             icon.classList.toggle('fa-plus');
             icon.classList.toggle('fa-minus');
             
-            // Close other FAQs
             const allFaqs = document.querySelectorAll('.faq-item');
             allFaqs.forEach(faq => {
                 const q = faq.querySelector('.faq-question');
                 const a = faq.querySelector('.faq-answer');
                 const i = faq.querySelector('i');
-                
                 if(q !== element && a.classList.contains('active')) {
                     a.classList.remove('active');
                     i.classList.remove('fa-minus');
@@ -1592,25 +1430,21 @@
             });
         }
         
-        // Form submission
         document.getElementById('contactForm').addEventListener('submit', function(e) {
             e.preventDefault();
             alert('Thank you for your inquiry! Our natural refrigerant specialists will contact you within 24 hours.');
             this.reset();
         });
         
-        // Active navigation highlighting
         const sections = document.querySelectorAll('section[id]');
         window.addEventListener('scroll', () => {
             let current = '';
             sections.forEach(section => {
                 const sectionTop = section.offsetTop;
-                const sectionHeight = section.clientHeight;
                 if(scrollY >= (sectionTop - 200)) {
                     current = section.getAttribute('id');
                 }
             });
-            
             document.querySelectorAll('.nav-menu a').forEach(link => {
                 link.classList.remove('active');
                 if(link.getAttribute('href') === `#${current}`) {
